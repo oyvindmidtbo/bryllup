@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/starter-template.css" rel="stylesheet">
+    <link href="css/googlemaps.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -53,16 +54,22 @@
 
 <div class="container">
 
-    <img src="bilder/ku.jpg" class="img-thumbnail" alt="Bilde av ku">
+    <img src="bilder/smalahovetunet.png" class="img-thumbnail" alt="Bilde av ku">
 
     <div class="page-header">
         <h1>Smalahovetunet</h1>
     </div>
 
     <div class="starter-template">
-        <h1>Velkommen til bryllup!</h1>
+        <h1>Festen er på Smalahovetunet</h1>
 
-        <p class="lead">Her kommer det til å komme masse nyttig info om bryllupet.</p>
+        <p class="lead">Smalahovetunet er fint, og der skal vi spise middag. Man kan parkere og sånn lizm.</p>
+    </div>
+
+    <div class="row">
+        <div id="map-canvas">
+
+        </div>
     </div>
 
 </div>
@@ -73,5 +80,18 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+    function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+            center: new google.maps.LatLng(60.628698, 6.416767),
+            zoom: 15,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 </body>
 </html>

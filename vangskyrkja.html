@@ -17,20 +17,6 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-        function initialize() {
-            var mapCanvas = document.getElementById('map-canvas');
-            var mapOptions = {
-                center: new google.maps.LatLng(60.628698, 6.416767),
-                zoom: 15,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-            var map = new google.maps.Map(mapCanvas, mapOptions);
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
 </head>
 <body role="document">
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -74,7 +60,7 @@
 
     <div class="row">
         <div class="col-sm-5">
-            <img src="bilder/vangskyrkja2.jpg" class="img-responsive" alt="Bilde av Vangskyrkja">
+            <img src="bilder/vangskyrkja.jpg" class="img-responsive" alt="Bilde av Vangskyrkja">
         </div>
 
         <div class="col-sm-6">
@@ -92,8 +78,6 @@
         </div>
     </div>
 
-
-
 </div>
 <!-- /.container -->
 
@@ -102,5 +86,18 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+    function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+            center: new google.maps.LatLng(60.628698, 6.416767),
+            zoom: 15,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 </body>
 </html>
