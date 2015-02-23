@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59ac7596-ba8c-40cf-b71d-e42a712be6a3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/skeleton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/favicon.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="bryllup.iws" />
@@ -30,11 +26,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8596491" vertical-offset="0" max-vertical-offset="1005">
-              <caret line="49" column="90" selection-start-line="49" selection-start-column="90" selection-end-line="49" selection-end-column="90" />
+            <state vertical-scroll-proportion="-13.125" vertical-offset="210" max-vertical-offset="1230">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="43" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tidsplan.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tidsplan.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.0" vertical-offset="105" max-vertical-offset="1230">
+              <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vangskyrkja.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vangskyrkja.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.0" vertical-offset="75" max-vertical-offset="1230">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smalahovetunet.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smalahovetunet.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="1230">
+              <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="overnatting.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/overnatting.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6666667" vertical-offset="45" max-vertical-offset="1230">
+              <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kontaktoss.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kontaktoss.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-26.875" vertical-offset="0" max-vertical-offset="1230">
+              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="onskeliste.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/onskeliste.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.25" vertical-offset="255" max-vertical-offset="1230">
+              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -48,7 +104,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/praktiskinformasjon.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/kontaktoss.html" />
+        <option value="$PROJECT_DIR$/onskeliste.html" />
+        <option value="$PROJECT_DIR$/tidsplan.html" />
+        <option value="$PROJECT_DIR$/vangskyrkja.html" />
+        <option value="$PROJECT_DIR$/overnatting.html" />
+        <option value="$PROJECT_DIR$/smalahovetunet.html" />
       </list>
     </option>
   </component>
@@ -67,7 +130,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -111,6 +174,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -207,8 +276,56 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8596491" vertical-offset="0" max-vertical-offset="1005">
-          <caret line="49" column="90" selection-start-line="49" selection-start-column="90" selection-end-line="49" selection-end-column="90" />
+        <state vertical-scroll-proportion="-13.125" vertical-offset="210" max-vertical-offset="1230">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="43" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kontaktoss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.875" vertical-offset="0" max-vertical-offset="1230">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onskeliste.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25" vertical-offset="255" max-vertical-offset="1230">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tidsplan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.0" vertical-offset="105" max-vertical-offset="1230">
+          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vangskyrkja.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="75" max-vertical-offset="1230">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smalahovetunet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.0" vertical-offset="0" max-vertical-offset="1230">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/overnatting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6666667" vertical-offset="45" max-vertical-offset="1230">
+          <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
           <folding />
         </state>
       </provider>
