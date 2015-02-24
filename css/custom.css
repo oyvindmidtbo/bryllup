@@ -1,3 +1,14 @@
 .row {
     margin-top: 20px;
 }
+
+@font-face {
+    font-family: AmaticSC-Regular;
+    src: url(../fonts/amatic/AmaticSC-Regular.ttf);
+    font-weight: 400;
+}
+
+.header-font {
+    font-family: AmaticSC-Regular, serif;
+    font-size: 40px;
+}
