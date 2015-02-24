@@ -8,7 +8,22 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: AvenirNextLTPro;
+    src: url(../fonts/avenir-next-lt-pro/AvenirNextLTPro-Cn.otf);
+    font-weight: 400;
+}
+
 .header-font {
     font-family: AmaticSC-Regular, serif;
     font-size: 40px;
+}
+
+.header-font-color {
+    color: #d04f80;
+}
+
+.tekstfont {
+    font-family: AvenirNextLTPro, serif;
+    font-size: 20px;
 }
