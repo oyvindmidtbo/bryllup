@@ -32,6 +32,10 @@
     height: 150px;
 }
 
+.borderclass {
+    border: solid;
+}
+
 .heart-row {
     position: absolute;
     margin-left: auto;
