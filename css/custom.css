@@ -27,3 +27,24 @@
     font-family: AvenirNextLTPro, serif;
     font-size: 20px;
 }
+
+.bottom-heart {
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-device-width: 500px) {
+    .navbar-brand,
+    .navbar-nav li a {
+        line-height: 73px;
+        height: 73px;
+        padding-top: 0;
+    }
+    
+    .img-medium {
+        height: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
