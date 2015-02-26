@@ -29,17 +29,11 @@
 }
 
 .bottom-heart {
-    height: 150px;
+    height: 50px;
 }
 
 .borderclass {
     border: solid;
-}
-
-.heart-row {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 @media only screen and (min-device-width: 500px) {
@@ -47,12 +41,16 @@
     .navbar-nav li a {
         line-height: 73px;
         height: 73px;
-        padding-top: 0;
+        padding-top: 0px;
     }
     
     .img-medium {
         height: 1000px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .hjerte-i-meny {
+        padding-top: 15px;
     }
 }
