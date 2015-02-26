@@ -1,101 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="bilder/hjerte.svg">
-    <title>Bryllaup</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="bilder/hjerte.svg">
+        <title>Bryllaup</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/starter-template.css" rel="stylesheet">
-    <link href="css/googlemaps.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/starter-template.css" rel="stylesheet">
+        <link href="css/googlemaps.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body role="document">
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse header-font">
-            <ul class="nav navbar-nav">
-                <img class="navbar-brand" src="bilder/favicon.png">
-                <li><a href="index.html">Heim</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Praktisk informasjon <span class="caret"></span></a>
-                    <ul class="dropdown-menu header-font" role="menu">
-                        <li><a href="tidsplan.html">Tidsplan</a></li>
-                        <li class="active"><a href="#">Vangskyrkja</a></li>
-                        <li><a href="smalahovetunet.html">Smalahovetunet</a></li>
-                        <li><a href="overnatting.html">Overnatting</a></li>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body role="document">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                            aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse header-font">
+                    <ul class="nav navbar-nav">
+                        <img class="navbar-brand" src="bilder/hjerte.svg">
+                        <li><a href="index.html">Heim</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Praktisk informasjon <span class="caret"></span></a>
+                            <ul class="dropdown-menu header-font" role="menu">
+                                <li><a href="tidsplan.html">Tidsplan</a></li>
+                                <li class="active"><a href="#">Vangskyrkja</a></li>
+                                <li><a href="smalahovetunet.html">Smalahovetunet</a></li>
+                                <li><a href="overnatting.html">Overnatting</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="kontaktoss.html">Kontakt oss</a></li>
+                        <li><a href="onskeliste.html">Ønskeliste</a></li>
                     </ul>
-                </li>
-                <li><a href="kontaktoss.html">Kontakt oss</a></li>
-                <li><a href="onskeliste.html">Ønskeliste</a></li>
-            </ul>
-        </div>
-        <!--/.nav-collapse -->
-    </div>
-</nav>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
 
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="bilder/vangskyrkja.jpg" class="img-responsive" alt="Bilde av Vangskyrkja">
+                </div>
+                <div class="col-sm-6">
+                    <div>
+                        <h1 class="header-font header-font-color">Vielsen blir holdt i Vangskyrkja.</h1>
 
-<div class="container">
+                        <p class="lead tekstfont">Dere kommer dere frem ved å kjøre til venstre og høyre. Dere kan parkere på parkeringsplass.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="map-canvas" class="col-sm-12">
 
-    <div class="row">
-        <div class="col-sm-6">
-            <img src="bilder/vangskyrkja.jpg" class="img-responsive" alt="Bilde av Vangskyrkja">
-        </div>
-
-        <div class="col-sm-6">
-            <div>
-                <h1 class="header-font header-font-color">Vielsen blir holdt i Vangskyrkja.</h1>
-
-                <p class="lead tekstfont">Dere kommer dere frem ved å kjøre til venstre og høyre. Dere kan parkere på parkeringsplass.</p>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="row">
-        <div id="map-canvas" class="col-sm-12">
+        <img class="bottom-heart" src="bilder/hjerte.svg">
 
-        </div>
-    </div>
-
-</div>
-<!-- /.container -->
-
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js"></script>
-<script>
-    function initialize() {
-        var mapCanvas = document.getElementById('map-canvas');
-        var mapOptions = {
-            center: new google.maps.LatLng(60.628698, 6.416767),
-            zoom: 15,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var map = new google.maps.Map(mapCanvas, mapOptions);
-    }
-    google.maps.event.addDomListener(window, 'load', initialize);
-</script>
-</body>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script>
+            function initialize() {
+                var mapCanvas = document.getElementById('map-canvas');
+                var mapOptions = {
+                    center: new google.maps.LatLng(60.628698, 6.416767),
+                    zoom: 15,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                var map = new google.maps.Map(mapCanvas, mapOptions);
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+    </body>
 </html>
