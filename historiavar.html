@@ -5,12 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="bilder/hjerte.svg">
-        <title>Bryllaup – Vangskyrkja</title>
+        <title>Bryllaup – Historia vår</title>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/starter-template.css" rel="stylesheet">
-        <link href="css/googlemaps.css" rel="stylesheet">
         <link href="css/custom.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -34,66 +33,40 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse header-font">
                     <ul class="nav navbar-nav">
-                        <img class="navbar-brand" src="bilder/hjerte.svg">
-                        <li><a href="index.html">Heim</a></li>
+                        <img class="navbar-brand hjerte-i-meny" src="bilder/hjerte.svg">
+                        <li class="active"><a href="index.html">Heim</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Praktisk informasjon <span class="caret"></span></a>
                             <ul class="dropdown-menu header-font" role="menu">
                                 <li><a href="bryllausdagen.html">Bryllaupsdagen</a></li>
                                 <li><a href="program.html">Program for dagen</a></li>
-                                <li class="active"><a href="#">Vangskyrkja</a></li>
+                                <li><a href="vangskyrkja.html">Vangskyrkja</a></li>
                                 <li><a href="smalahovetunet.html">Smalahovetunet</a></li>
                                 <li><a href="overnatting.html">Overnatting</a></li>
                             </ul>
                         </li>
-                        <li><a href="historiavar.html">Historia vår</a></li>
+                        <li class="active"><a href="#">Historia vår</a></li>
                         <li><a href="onskeliste.html">Ønskeliste</a></li>
                         <li><a href="kontaktoss.html">Kontakt oss</a></li>
                     </ul>
                 </div>
-                <!--/.nav-collapse -->
             </div>
         </nav>
 
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <img src="bilder/vangskyrkja.jpg" class="img-responsive borderclass" alt="Bilde av Vangskyrkja">
-                </div>
-                <div class="col-sm-6">
-                    <div>
-                        <h1 class="header-font header-font-color">Vielsen blir holdt i Vangskyrkja.</h1>
+            <div class="starter-template">
+                <h1 class="header-font header-font-color">Historia vår</h1>
 
-                        <p class="lead tekstfont">Dere kommer dere frem ved å kjøre til venstre og høyre. Dere kan parkere på parkeringsplass.</p>
-                    </div>
-                </div>
+                <p class="lead tekstfont">Her kjem etter kvart bilder av oss.</p>
             </div>
-            <div class="row">
-                <div id="map-canvas" class="col-sm-12">
 
-                </div>
-            </div>
             <div class="row text-center">
                 <img class="bottom-heart" src="bilder/hjerte.svg">
             </div>
         </div>
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js"></script>
-        <script>
-            function initialize() {
-                var mapCanvas = document.getElementById('map-canvas');
-                var mapOptions = {
-                    center: new google.maps.LatLng(60.628698, 6.416767),
-                    zoom: 15,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
-                var map = new google.maps.Map(mapCanvas, mapOptions);
-            }
-            google.maps.event.addDomListener(window, 'load', initialize);
-        </script>
     </body>
 </html>
