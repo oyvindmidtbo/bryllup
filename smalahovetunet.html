@@ -95,12 +95,21 @@
         <script>
             function initialize() {
                 var mapCanvas = document.getElementById('map-canvas');
+                var myLatlng = new google.maps.LatLng(60.692783, 6.474068);
+
                 var mapOptions = {
                     center: new google.maps.LatLng(60.692783, 6.474068),
                     zoom: 15,
                     mapTypeId: google.maps.MapTypeId.ROADMAP
                 };
+
                 var map = new google.maps.Map(mapCanvas, mapOptions);
+
+                var marker = new google.maps.Marker({
+                    position: myLatlng,
+                    map: map,
+                    title: 'Smalahovetunet'
+                });
             }
             google.maps.event.addDomListener(window, 'load', initialize);
         </script>
